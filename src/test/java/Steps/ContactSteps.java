@@ -32,7 +32,7 @@ public class ContactSteps {
     @Given("user on Home Page")
     public void user_on_home_page() {
         // Write code here that turns the phrase above into concrete actions
-    driver.get("https://compendiumdev.co.uk/");
+    driver.get("https://www.flipkart.com");
     }
     @When("click on the Contact")
     public void click_on_the_contact() {

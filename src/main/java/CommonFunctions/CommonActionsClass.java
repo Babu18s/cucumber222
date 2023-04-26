@@ -25,12 +25,12 @@ public class CommonActionsClass {
                 flag = false;
             }
             catch (StaleElementReferenceException ser) {
-                // TODO: handle exception
+
                 System.out.println(ser.toString());
                 flag = false;
             }
             catch (ElementNotInteractableException eni) {
-                // TODO: handle exception
+
                 System.out.println(eni.toString());
                 flag = false;
             }
@@ -45,16 +45,16 @@ public class CommonActionsClass {
                 element.sendKeys(value);
             }
             catch (NoSuchElementException nse) {
-                // TODO: handle exception
+
                 System.out.println(nse.toString());
                 flag = false;
             }
             catch (StaleElementReferenceException Ser) {
-                // TODO: handle exception
+
                 System.out.println(Ser.toString());
             }
             catch (ElementNotInteractableException eni) {
-                // TODO: handle exception
+
                 System.out.println(eni.toString());
                 flag = false;
             }
